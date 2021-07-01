@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    max-width: 500px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 10px 10px 10px #fdf900;
+    font-family: sans-serif, Verdana, Tahoma;
+    margin-bottom: 0px;
+    color: rgb(255, 230, 0);
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 5px 5px 10px #fdf900;
+    font-family: sans-serif, Verdana, Tahoma;
+    color: rgb(255, 230, 0);
+    margin-top: 1px;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 5px 5px 10px #fdf900;
+    font-family: sans-serif, Verdana, Tahoma;
+    color: rgb(255, 230, 0);
+    margin-top: 10px;
+}
+
+body {
+    background: url(FundoFormulario.jpg);
+    background-size: cover;
+
+}
+
+.linhasup {
+    background-color: rgb(255, 2230, 0);
+    margin: 0px auto;
+    width: 300px;
+    height: 3px;
+    font-size: 20px;
+    color: #ffc400;
+    text-align: right;
+    border-color: #ffffff;
+    border-radius: 30px;
+}
+
+.linhainf {
+    background-color: rgb(255, 2230, 0);
+    margin: 490px auto;
+    width: 300px;
+    height: 3px;
+    font-size:18px;
+    color: #ffc400;
+    text-align: right;
+    border-color: #ffffff;
+    border-radius: 30px;
+}
+
+p {
+    padding: 3px;
+}
+
+.pushbutton {
+    background-color: #f8ff92;
+    font-size: 19px; 
+    width: 80px;
+    height: 30px;
+    border-color: #ffffff;
+    border-radius: 3px;    
+    color: #001aff;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+.pushbutton:hover {
+    background: #ffd900;  
+}
+
+a {
+    background-color: #f8ff92;
+    border: 2px solid rgb(255, 255, 168);
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #001aff;
+    font-family: sans-serif, Verdana, Tahoma;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: yellow;
+    color: blue;
+}

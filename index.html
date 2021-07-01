@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="LogoColonnaMT.png" type="png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="FormularioEstilo.css">
+    <title>Formulário Simples</title>
+
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <div class="linhasup">
+    <form name="formulario">
+        <h2> Para lhe conhecermos melhor, por favor, insira os dados a seguir.</h2>
+
+        <p>Seu Nome</p><input type="text" id="nomeid" placeholder="Nome Completo" required="required" name="nome" />
+        <br>
+        <p>Seu Email</p> <input type="email" id="emailid" placeholder="seuemail@exemplo.com.br" required="required" name="email" />
+        <br>
+        <p>Seu Telefone</p> <input type="number" id="foneid" placeholder="Somente dígitos, com DDD" required="required" name="tel" />
+        <br>
+        <p>Rua e Número</p> <input type="text" id="enderecoid" placeholder="Rua Exemplo, XXX" required="required" name="endereco" />
+        <br>
+        <p>Complemento (opcional)</p> <input type="text" id="complementoid" placeholder="Apt XX" name="complemento" />
+        <br>
+        <p>Seu Bairro</p> <input type="text" id="bairroid" placeholder="Seu Bairro" required="required" name="bairro" />
+        <br>
+        <p>Cidade e Estado</p> <input type="text" id="cidadeid" placeholder="Exemplo/SP" required="required" name="cidade" />
+        <br>
+        <p>CEP</p> <input type="number" id="cepid" placeholder="00000000" required="required" name="CEP" />
+        <br>
+        <p></p>
+        <button class="pushbutton" onclick="Enviar()">Enviar</button>
+        <p></p>
+        <p><a href="javascript:window.close()">Sair</a></p>
+
+    </form>
+    </div>
+
+    <div class="linhainf">
+        <h3>
+            <p></p>
+            <p><a href="https://github.com/ClaudemirAlves" target="_blank">Meu GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/claudemir-andrade-b84600201/" target="_blank">Meu Linkedin</a></p>
+            <p><strong><img src="LogoColonnaMT.png" alt="Logo pessoal de Claudemir Alves de Andrade, Caa" style="width: 15%"></strong></p>
+            <p><strong>Claudemir Alves de Andrde</strong></p>
+        </h3>
+    </div>
+
+<script src="./FormularioFuncoes.js"></script>
+
+</body>
+</html>
